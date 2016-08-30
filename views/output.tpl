@@ -11,18 +11,16 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
 
 <div class="container">
-  <body>
-    <h1>Calculating Fish Food</h1>
-	{{name}}
-    
-  </body>
+    <div class="jumbotron">
+        <h1>You need {{name}} kg food</h1>
+        <p><a href="#" class="btn btn-success btn-lg">Try Another »</a></p>
+    </div>
 </div>
-  
-  </div>
+<style>
+  .jumbotron{background: #fff;}
+</style>
+
 </html>
