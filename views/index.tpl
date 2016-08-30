@@ -22,20 +22,20 @@
 
 <form method="POST" action="/result" class="form-horizontal">
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <label for="inputEmail3" class="col-sm-2 control-label">প্রতি কেজিতে মাছের সংখ্যা</label>
     <div class="col-sm-10">
-      <input type="number" class="form-control" id="inputEmail3" name="TotalFish" placeholder="Email">
+      <input type="number" class="form-control" id="inputEmail3" name="TotalFish" placeholder="প্রতি কেজিতে মাছের সংখ্যা">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">পুকুরে ছাড়া মোট মাছের সংখ্যা</label>
     <div class="col-sm-10">
-      <input type="number" class="form-control" id="inputPassword3" name="FishRange" placeholder="Password">
+      <input type="number" class="form-control" id="inputPassword3" name="FishRange" placeholder="পুকুরে ছাড়া মোট মাছের সংখ্যা">
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-success">Sign in</button>
+      <button type="submit" class="btn btn-success">হিসাব দেখাও</button>
     </div>
   </div>
 </form>

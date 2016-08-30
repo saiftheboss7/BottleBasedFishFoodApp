@@ -5,10 +5,11 @@ def index():
 
 @post('/result', method='POST')
 def result():
+
 	sumFish= float(request.forms.get("TotalFish"))
 	fishRange= float(request.forms.get("FishRange"))
 	
-	if 5000<=sumFish<=8000:
+	if 5000<=sumFish<=999999999:
 		constant=0.00020
 	if 4000<=sumFish<=4999:
 		constant=0.00019
@@ -41,7 +42,8 @@ def result():
 	if 10<=sumFish<=14:
 		constant=0.00250
 
-	newvar=constant*fishRange
+	a=constant*fishRange
+	newvar=format(a, '.2f')
 	
 
 	return template('output', name=newvar)
