@@ -15,7 +15,7 @@ def result():
 	if 3000<=sumFish<=3999:
 		constant=0.00017
 	if 2000<=sumFish<=2999:
-		constant=00020
+		constant=0.00020
 	if 1000<=sumFish<=1999:
 		constant=0.00035
 	if 800<=sumFish<=899:
